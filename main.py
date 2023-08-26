@@ -1,10 +1,9 @@
 import random
 
 
-from imagetotext import imgToText
+from art import rotateHand
 
-print(imgToText("rock.jpeg"))
-
+rotateHand()
 def robotchoice():
   return random.randrange(0,2)
 
