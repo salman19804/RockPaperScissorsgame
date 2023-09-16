@@ -3,7 +3,8 @@ import random
 
 from art import rotateHand
 
-rotateHand()
+rotateHand("rock")
+
 def robotchoice():
   return random.randrange(0,2)
 
